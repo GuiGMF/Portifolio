@@ -70,7 +70,7 @@ body{
 .titulo-destaque {
     color: var(--cor-destaque-amarelo);
     font-family: var(--font-terciaria);
-    font-size: 2.3rem;
+    font-size: inherit;
 
 }
 
@@ -186,6 +186,7 @@ body{
     display: flex;
     text-align: center;
     justify-content: center;
+    align-items: center;
     font-size: 2.1875rem; 
     
     
@@ -273,4 +274,28 @@ body{
     padding: 6%;
 
 }
+
+/* Sobre Mim */
+
+.apresentacao__conteudo__titulo__sobremim{
+    width: auto;
+    text-align: center;
+    font-size: 100%;
+
+
+}
+
+.apresentacao__conteudo__sobremim{
+    padding-bottom: 15%;
+
+}
+
+
+.apresentacao__conteudo__paragrafo__sobremim{
+    width: auto;
+    text-align: center;
+    font-size: 100%;
+}
+
+
 }
